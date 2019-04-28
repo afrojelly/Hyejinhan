@@ -17,6 +17,11 @@
     font-family: 'Roboto', sans-serif;
     
 }
+.mainimage{
+    z-index: -1;
+    top:0;
+    position: fixed;
+}
 .Navbar-HearderBar-Menu {
     display: flex;
     justify-content: space-between;
