@@ -1,0 +1,44 @@
+.Navbar-HearderBar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+.Navbar-HearderBar-Logo {
+    margin-left: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+}
+
+.menutext {
+    margin-left: 50px;
+    margin-top: 200px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.Navbar-HearderBar-Menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 35px;
+}
+.Navbar-HearderBar-Product{
+    margin-left: 35px;
+}
+.Navbar-HearderBar-About {
+    margin-left: 35;
+}
+.Navbar-HearderBar-Contact{
+    margin-left: 35px;
+}
+.Navbar-HearderBar-UIUX {
+}
+.menuimage {
+    margin-left: 30px;
+}
+.image1 {
+    float: left; width: 33%;
+}
