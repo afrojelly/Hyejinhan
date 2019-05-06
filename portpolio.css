@@ -1,6 +1,10 @@
 body{
     margin:0;
 }
+.background {
+    border: 30px solid inherit;
+    text-align: center;
+}
 
 .Header {
     position: fixed;
@@ -11,42 +15,40 @@ body{
     z-index: 999;
 }
 
+.mainimage {
+    padding: 27px;
+}
+
 .Navbar-HearderBar {
     display: flex;
     justify-content: space-between;
 
 }
 .Navbar-HearderBar-Logo {
-    margin-left: 27px;
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 27px;
 }
 
 .menutext {
     margin-left: 50px;
     margin-top: 900px;
     margin-bottom: 35px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
     display:block;
 }
-.mainimage{
-    z-index: -1;
-    top:0;
-    width:100%;
-    height:100%;
-    position: absolute;
-}
+
 .Navbar-HearderBar-Menu {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-    margin-right: 25px;
     font-family: 'Roboto', sans-serif;
     margin-top: 25px;
     margin-bottom: 15px;
+    margin-right: 27px;
 }
 .Navbar-HearderBar-Product{
     margin-left: 35px;
@@ -74,3 +76,5 @@ body{
 .image1 img{
     height:266px;
 }
+
+.image-row
